@@ -1,0 +1,507 @@
+.trade{
+    background: url('./Images/bg-binary.jpg');
+    display: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    margin-top: -22px;
+}
+
+.text h1{
+    color: white;
+    margin-left: 140px;
+    font-size: 60px;
+    padding-top: 100px;
+   
+}
+
+.text p{
+    color: white;
+    margin-left: 140px;
+    font-size: 15px;
+    margin-top: -20px;
+    
+}
+
+.text button{
+    width: 200px;
+    height: 50px;
+    margin-left: 140px;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color:red;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 17px;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+
+/*two section*/
+
+.two{
+   
+    display: flex;
+    background-color: rgba(239, 239, 239, 0.678);
+    
+}
+
+.col-4{
+    width: 25%;
+    
+}
+
+
+.col-4 h1{
+    margin-left: 40px;
+    margin-top: 50px;
+    font-size: 30px;
+    color: rgb(2, 0, 0);
+    font-weight: bold;
+    padding-bottom: 10px;
+    
+}
+
+.col-4 p{
+    margin-left: 40px;
+    font-size: 15px;
+    color: rgb(2, 0, 0);
+    margin-top: -20px;
+}
+
+.row-text{
+    margin-left: 140px;
+    margin-top: -3px;
+}
+
+/*Third section*/
+
+.img1{
+    width: 80px;
+    height: 80px;
+   margin-left: 60px;
+}
+
+.third-text h1{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 60px;
+}
+   
+.third-col{
+    
+    display: flex;
+    max-width: 25%;
+   
+    margin-left: 150px;
+    margin-top: 50px;
+    gap: 85px;
+}
+
+.column-4{
+    background-color: rgba(239, 239, 239, 0.678);
+    border-radius: 20px;
+   
+    height: 40vh;
+}
+
+.column-4-text{
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+    margin-right: 30px;
+    align-items: center;
+    
+    
+}
+
+/*fourth section*/
+
+.fourth{
+    background-color: rgba(239, 239, 239, 0.678);
+    margin-top: 100px;
+    height: 700px;
+}
+
+.fourth-up h1{
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 60px;
+    
+}
+
+.fourth-list{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.fourth-list ul{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    cursor: pointer;
+
+}
+
+
+
+.fourth-list ul li:hover{
+    text-decoration: underline;
+    
+}
+
+
+
+.fourth-list ul li{
+    
+    text-align: center;
+    justify-content: center;
+    
+}
+
+/* Columm*/
+
+/*.market-indicate-col-4{
+    display: flex;
+}
+*/
+
+
+
+.market-indicate{
+    display: flex;
+    width: 25%;
+}
+
+.market-indicate-col-4{
+   
+    background-color: rgb(255, 255, 255);
+   padding: 5px 5px 5px 5px;
+    height: 300px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 20px;
+    
+}
+
+.market-indicate-col-4-up{
+    display: flex;
+}
+.market-indicate-col-4-up img{
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.market-indicate-col-4-middle{
+    display: flex;
+}
+
+.market-indicate-col-4-up p{
+    margin-left: 100px;
+    margin-top: 20px;
+}
+
+.market-indicate-col-4-middle{
+    gap: 120px;
+}
+
+.market-indicate-col-4-middle .bid-1{
+    margin-left: 40px;
+}
+
+.market-indicate-col-4-down{
+    margin-left: 40px;
+    
+}
+
+.market-indicate-col-4-down span{
+    font-weight: bold;
+    
+}
+
+.market-indicate-col-4-down-btn .buy-btn{
+    color: tomato;
+    font-weight: bold;
+    border-color: tomato;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.market-indicate-col-4-down-btn .sell-btn{
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: transparent;
+    width: 120px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+.market-indicate-col-4-down-btn .buy-btn:hover{
+    background-color: tomato;
+    color: white;
+}
+
+.market-indicate-col-4-down-btn .sell-btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+/*fifth section*/
+
+.fifth{
+    background-color: rgba(239, 239, 239, 0.678);
+   padding-top: 10px;
+   height: 770px;
+   
+}
+
+.fifth-text-up{
+    display: inline;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fifth-text-up p{
+    
+    text-align: center;
+}
+
+.fifth-text-up p span{
+    font-weight: bold;
+}
+
+.fifth-text-up2 p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.fifth-text-up2 p span{
+  
+    font-size: 20px;
+}
+
+.fifth-text-mid{
+    text-align: center;
+    margin-top: 100px;
+}
+.fifth-text-mid h1{
+    font-size: 50px;
+}
+
+
+.fifth-list ul{
+    display: flex;
+    gap: 40px;
+   justify-content: center;
+}
+
+.fifth-list ul li{
+    list-style: none;
+}
+
+.fifth-list ul li:hover{
+    text-decoration: underline;
+}
+
+.active {
+    text-decoration: underline
+    ;
+  }
+
+/*Fifvth col-3*/
+
+.main-main-col{
+    width: 100%;
+    
+}
+
+.main-col{
+    display: flex;
+    
+    
+   
+}
+.tyty{
+    display: flex;
+    width: 1000px;
+    
+}
+
+.fifth-last-col{
+    display: flex;
+    margin-left: 200px;
+    
+}
+
+
+.fifth-last-col-3{
+    display: flex;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 35px;
+    
+  
+
+}
+
+
+.col-3-container{
+    
+    width: 700px;
+   
+
+}
+
+.fifth-last-col-3 h2{
+   margin-left: 40px;
+}
+
+.fifth-last-col-3 p{
+    margin-left: 40px;
+  
+}
+
+
+/*------------------------*/
+
+.main-main-col-duplicate{
+    height: 400px;
+    width: 100%;
+    margin-top: -60px;
+    background-color: rgba(239, 239, 239, 0.678);
+    
+   
+}
+
+.main-col-duplicate{
+    
+    display: flex;
+    background-color: rgba(239, 239, 239, 0.678);
+    
+   
+   
+}
+
+.fifth-last-col-3-duplicate{
+    display: flex;
+    width: 35%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    margin-left: 35px;
+    margin-top: 50px;
+   
+}
+
+.tyty-dup{
+    display: flex;
+    width: 1000px;
+  
+}
+
+.fifth-last-col-3-duplicate h2{
+    margin-left: 40px;
+ }
+ 
+ .fifth-last-col-3-duplicate p{
+     margin-left: 40px;
+   
+ }
+
+ /*____________seven section_______________*/
+
+ .seven-section{
+    background: url(../../public/Images/trad.png);
+    display: fixed;
+    background-size: cover;
+    width: 85%;
+    height: 80vh;
+    margin-top: 50px;
+    margin-left: 130px;
+    
+    border-radius: 30px;
+ }
+
+.seven-section .seven-text .seven-text-up h1{
+   margin-left: 500px;
+   padding-top: 180px;
+   font-size: 60px;
+   color: rgb(255, 255, 255);
+   border-color: black;
+   font-weight: 800;
+}
+
+.seven-section .seven-text .seven-text-up button{
+    margin-left: 500px;
+    width: 200px;
+    height: 50px;
+    background: rgb(255, 0, 0);
+    border-radius: 20px;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    border-color: red;
+    
+}
+
+
+/*_________________Fotter____________________*/
+
+.fotter{
+    background-color: rgb(255, 255, 255);
+    height: 550px;
+    margin-top: 100px;
+}
+
+.fotter-up{
+    display: flex;
+}
+
+.fotter-up-left{
+    text-align: left;
+}
+
+.fotter-up-left h1{
+   margin-left: 130px;
+   color: red;
+   font-family: poppins;
+   font-style: italic;
+   font-weight: 800;
+}
+
+.fotter-up-right {
+    display: flex;
+    margin-left: 1010px;
+    margin-top: 30px;
+}
+
+.fotter-up-right img{
+    
+   margin-left: 20px;
+}
+
+/*fotter-down*/
+
+
+.fotter-down{
+    display: flex;
+    margin-left: 130px;
+    margin-top: 50px;
+}
+
+.fotter-down-text{
+    display: flex;
+    margin-left: 75px;
+}

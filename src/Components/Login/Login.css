@@ -1,0 +1,126 @@
+.login{
+    background-color: rgb(13, 31, 31);
+    width: 50%;
+    
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-text h2{
+    color: red;
+    font-size: 40px;
+}
+
+.login-text span{
+    color: white;
+    text-decoration: underline;
+}
+
+.welcome-text p{
+   font-size: 17px;
+   margin-right: 230px;
+   color: white;
+}
+
+.input-1{
+    margin-top: 50px;
+    margin-right: 170px;
+    
+    
+}
+
+.input-1 input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin-left: -30px;
+}
+
+.input-2{
+    margin-top: 25px;
+    margin-right: 170px;
+   
+}
+
+.input-2 input{
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    margin-left: -30px;
+}
+
+.input-area{
+   margin-left: 240px;
+   margin-top: -15px;
+ 
+}
+
+.forgot-password{
+    margin-right: 200px;
+}
+
+.btn button{
+    width: 400px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 65px;
+    border-color: red;
+    
+
+}
+
+.social-btn button{
+    width: 400px;
+    height: 50px;
+    border-radius:20px ;
+    margin-left: 70px;
+}
+
+.social-1 button{
+    background-color: rgb(236, 228, 228);
+    color: black;
+    margin-top: 1px;
+    font-weight: bold;
+    border-color: rgb(236, 218, 218);
+}
+
+.social-2 button{
+    background-color: blueviolet;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    border-color:blueviolet ;
+}
+
+.social-3 button{
+   background-color: black;
+   color: rgb(247, 229, 229);
+   margin-top: 10px;
+   font-weight: bold;
+   border-color: ;
+}
+
+.continous p{
+    margin-left: 80px;
+    color: white;
+}
+.last-text p span{
+    color: red;
+    cursor: pointer;
+}
+
+.last-text p{
+    color: white;
+    
+}

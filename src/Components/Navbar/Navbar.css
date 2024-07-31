@@ -1,0 +1,113 @@
+nav{
+    display: flex;
+    background: rgb(255, 255, 255);
+    border-color: black;
+    height: 60px;
+    position: sticky;
+    top: 0;
+ 
+}
+
+ul a{
+    text-decoration: none;
+    color: black;
+
+}
+
+ul a:hover{
+    color: red  ;
+    
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+.nav-logo h1{
+    margin-left: 140px;
+    color: red;
+    font-style: italic;
+}
+
+.nav-logo h1 span{
+    color: black;
+    text-decoration: underline;
+}
+
+nav ul{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin-left: 350px;
+    margin-top: 25px;
+    gap: 30px;
+    list-style-type: none;
+
+}
+
+nav ul li {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    list-style-type: none;
+    
+}
+
+
+
+.nav-right{
+    display: flex;
+    margin-left: auto;
+    margin-right: 70px;
+    gap: 20px;
+}
+
+.nav-right .log-button{
+    background: transparent;
+    width: 100px;
+    height: 50px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.nav-right .log-button:hover{
+    background: rgb(247, 241, 241);
+    
+}
+
+.nav-right .demo-button{
+    background: red;
+    width: 200px;
+    height: 50px;
+   
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.nav-right img{
+    margin: auto;
+}
+
+.nav-right p{
+    margin: auto;
+    margin-left: -20px;
+}
+
