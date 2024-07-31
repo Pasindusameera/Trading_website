@@ -4,7 +4,7 @@ const Support = () => {
   return (
     <div>
       <h1>Support</h1>
-      <p>kk</p>
+      <p>Support trading unit</p>
     </div>
   )
 }
